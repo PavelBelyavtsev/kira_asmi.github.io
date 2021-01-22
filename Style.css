@@ -488,7 +488,7 @@ footer {
 	transition: 0.4s;
 }
 
-.footer_social img:hover {
+.no-touch.footer_social img:hover {
 	opacity: 0.7;
 	transform: scale(1.2);
 }
