@@ -467,6 +467,8 @@ nav b {
 	background: linear-gradient(to top left, powderblue, pink);
 	border-radius: 17px;
 /*	transform: translate3d(-10px, -10px, 0);*/
+	
+	box-shadow: 10px 10px 10px #3D3A41;
 }
 
 .about_img img:hover {
