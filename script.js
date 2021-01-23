@@ -1,6 +1,7 @@
-/*if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
-  console.log('this is a touch device');
-} else {
-  console.log('this is not a touch device');
-  document.body.classList.add('no-touch');
-}*/
+jQuery(document).ready(function($){
+  $('.arrow_a').click(function() {
+    $('html').animate({
+      scrollTop: $('.intro').height()
+    }, 1000)
+  })
+});
