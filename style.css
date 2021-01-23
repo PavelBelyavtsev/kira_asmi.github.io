@@ -114,6 +114,8 @@ nav b {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .arrow {
 	animation: arrowDown 2s infinite;
+	left: calc(50% - 100px)
+	position: absolute;
 }
 
 @keyframes arrowDown {
