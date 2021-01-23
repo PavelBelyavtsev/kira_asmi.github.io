@@ -112,6 +112,24 @@ nav b {
 	height: 100px;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.intro {
+	animation: arrowUp 2s infinite;
+}
+
+@keyframes arrowUp {
+  0% {
+	padding-bottom: 30px;
+  }
+  50% {
+	padding-bottom: 0px;
+  }
+  100% {
+	padding-bottom: 30px;
+  }
+}
+
+
+
 .arrow {
 	animation: arrowDown 2s infinite;
 	left: calc(50% - 100px)
@@ -123,10 +141,10 @@ nav b {
 	margin-top: 0px;
   }
   50% {
-    margin-top: 30px;
+	margin-top: 30px;
   }
   100% {
-    margin-top: 0px;
+	margin-top: 0px;
   }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
